@@ -19,7 +19,7 @@ myLabel.font = [UIFont typiconFontOfSize:28];
 * Set the icon that you want to use in your code e.g.
 
 	```
-myLabel.text = [NSString typiconStringForIconName:@"heart-full-outline];
+myLabel.text = [NSString typiconStringForIconName:@"heart-full-outline"];
 ```
 * That's it.
 
