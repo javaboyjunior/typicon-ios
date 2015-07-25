@@ -16,6 +16,6 @@ static NSString *const kTypiconsFamilyName = @"typicons";
  @abstract Returns the typicon character associated to the typicon identifier.
  @discussion The list of identifiers can be found here: http://www.typicons.com/
  */
-+ (NSString*)typiconIconStringForIconIdentifier:(NSString*)identifier;
++ (NSString*)typiconStringForIconName:(NSString*)identifier;
 
 @end

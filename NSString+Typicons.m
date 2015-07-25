@@ -10,7 +10,7 @@
 
 @implementation NSString (Typicons)
 
-+ (NSString*)typiconIconStringForIconIdentifier:(NSString*)identifier {
++ (NSString*)typiconStringForIconName:(NSString*)identifier {
   NSUInteger index = [[NSString typiconsNameStrings] indexOfObject:identifier];
   if(index < [NSString typiconsUnicodeStrings].count) {
     return [NSString typiconsUnicodeStrings][index];
