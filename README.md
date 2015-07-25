@@ -24,3 +24,6 @@ myLabel.text = [NSString typiconStringForIconName:@"heart-full-outline"];
 * That's it.
 
 Note that you can use this NSAttributedStrings etc. etc. It works just like a normal font.
+
+## Info
+First version uses version 2.0.7 of typicons.
